@@ -1,0 +1,24 @@
+
+.about{
+    /* background: url(../img/about_bg.png) no-repeat; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about .content{
+    padding:13rem 0;
+    max-width: 50rem;
+}
+
+.about .content h3{
+    font-size: 3rem;
+    color:var( --black);
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color:black;
+    line-height: 2;
+    padding: 1rem 0;
+}

@@ -1,0 +1,119 @@
+
+.home {
+    padding: 0;
+    /* overflow-x: hidden; */
+
+}
+
+.home .home-slider .box {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.home .home-slider .box .content {
+    text-align: center;
+}
+
+.home .home-slider .box .content h3 {
+    font-size: 5rem;
+    color: #fff;
+    transition-delay: .2s;
+}
+
+.home .home-slider .box .content p {
+    font-size: 2rem;
+    color: #fff;
+    transition-delay: .4s;
+    padding: 1rem 0;
+}
+
+.home .home-slider .box .content .button {
+    transition-delay: .6s;
+}
+
+.home .home-slider .box .content > * {
+    transform: translateY(2rem);
+    opacity: 0;
+}
+
+.home .home-slider .swiper-slide-active .content > * {
+    transform: translateY(0rem);
+    opacity: 1;
+}
+
+.home .home-slider .swiper-button-next {
+    right: 4rem;
+    color: #fff;
+    opacity: 0;
+}
+
+.home .home-slider .swiper-button-prev {
+    left: 4rem;
+    color: #fff;
+    opacity: 0;
+}
+
+.home .home-slider .swiper-button-next:hover,
+.home .home-slider .swiper-button-prev:hover {
+    color: var(--main-color);
+}
+
+.home .home-slider:hover .swiper-button-next,
+.home .home-slider:hover .swiper-button-prev {
+    opacity: 1;
+}
+
+
+
+section {
+    padding: 2rem 9%;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    background: #fff;
+    font-weight: 500;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: var(--main-color);
+    color: #fff;
+    letter-spacing: .1rem;
+}
+
+.heading {
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+.heading span {
+    color: var(--main-color);
+}
+
+/* media query */
+
+
+@media (max-width:450px){
+
+    html{
+        font-size:50%;
+    }
+
+    .home .home-slider .swiper-button-next,
+    .home .home-slider .swiper-button-prev{
+        display: none;
+    }
+
+}

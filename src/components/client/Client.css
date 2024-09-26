@@ -1,0 +1,24 @@
+
+.abouts{
+    /* background: url(../img/client_1.png) no-repeat; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.abouts .content{
+    padding:13rem 0;
+    max-width: 50rem;
+}
+
+.abouts .content h3{
+    font-size: 3rem;
+    color:var(--black);
+}
+
+.abouts .content p{
+    font-size: 1.5rem;
+    color:black;
+    line-height: 2;
+    padding: 1rem 0;
+}
